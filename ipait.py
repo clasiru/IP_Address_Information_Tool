@@ -81,6 +81,7 @@ if google_ok() or yahoo_ok():
                 print ("Location: " + js["loc"]);
                 print ("ASN/Organization: " + js["org"]);
                 print ("Time Zone: " + js["timezone"]);
+                #You can add additional lines here.
         else:
             print ();
             print ("Error: Your IP Address is not a Valid IP Address !");
