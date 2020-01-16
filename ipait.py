@@ -7,7 +7,7 @@
 
 import socket
 import json;
-from urllib.request import *;
+from urllib.request import urlopen;
 
 print ("  ___                  ___  ___          _            ");
 print (" / _ \                 |  \/  |         | |           ");
