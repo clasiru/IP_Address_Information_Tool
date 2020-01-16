@@ -1,4 +1,4 @@
-# IP Address Information Tool
+# IP Address Information Tool (IPAIT)
 
 Simple python script to view information about any IPv4 or IPv6 public IP address
 -
