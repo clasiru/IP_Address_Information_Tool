@@ -2,14 +2,14 @@
 
 Simple python script to view information about any IPv4 or IPv6 public IP address
 -
-This is a IP Address Information Tool (IPAIT). You need Python 3 and Internet connection for run this tool. You can find information about any IPv4 or IPv6 Public IP Address. This tool can extract following information.
+This is the IP Address Information Tool (IPAIT). You need Python 3 and an Internet connection to run this tool. You can find information about any IPv4 or IPv6 Public IP Address. This tool can extract the following information.
 
 01. Country
 02. Location
 03. ASN/Organization
 04. Time Zone
 
-Additionally you can also extract following information by adding suitable lines into the ipait.py. (You can add additional lines after 84th line.)
+Additionally, you can also extract the following information by adding suitable lines into the ipait.py. (You can add additional lines after 84th line.)
 
 01. Hostname -
 ```python
