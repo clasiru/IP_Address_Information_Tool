@@ -28,4 +28,5 @@ print ("Region: " + js["region"]);
 print ("Postal: " + js["postal"]);
 ```
 
+
 My blog post about this: [IP Address Information Tool (IPAIT)](https://clasiru.blogspot.com/2020/01/python-ip-address-information-tool-ipait.html)
