@@ -5,7 +5,7 @@
 #Website: Widane Forums
 #Link: https://www.widane.com
 
-import socket
+import socket;
 import json;
 from urllib.request import urlopen;
 
@@ -24,7 +24,7 @@ print ();
 
 def google_ok():
     try:
-        urlopen('https://www.google.com', timeout=10)
+        urlopen('https://www.google.com', timeout=10);
         return True
     except: 
         return False
@@ -32,7 +32,7 @@ def google_ok():
 
 def yahoo_ok():
     try:
-        urlopen('https://www.yahoo.com', timeout=10)
+        urlopen('https://www.yahoo.com', timeout=10);
         return True
     except: 
         return False
@@ -40,7 +40,7 @@ def yahoo_ok():
 
 def site_ok():
     try:
-        urlopen('https://ipinfo.io', timeout=10)
+        urlopen('https://ipinfo.io', timeout=10);
         return True
     except: 
         return False
@@ -48,14 +48,14 @@ def site_ok():
 
 def is_valid_ipv4_address(address):
     try:
-        socket.inet_pton(socket.AF_INET, address)
+        socket.inet_pton(socket.AF_INET, address);
     except socket.error:
         return False
     return True
 
 def is_valid_ipv6_address(address):
     try:
-        socket.inet_pton(socket.AF_INET6, address)
+        socket.inet_pton(socket.AF_INET6, address);
     except socket.error:
         return False
     return True
