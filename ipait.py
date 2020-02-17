@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
 #IP Address Information Tool (IPAIT) v1.0
-#Author: Area Master
-#Website: Widane Forums
-#Link: https://www.widane.com
+#Author: Chandika Lasiru
+#Blog: https://clasiru.blogspot.com
 
 import socket;
 import json;
