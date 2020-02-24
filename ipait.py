@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#IP Address Information Tool (IPAIT) v1.
+#IP Address Information Tool (IPAIT) v1.0
 #Author: Chandika Lasiru
 #Blog: https://clasiru.blogspot.com
 
