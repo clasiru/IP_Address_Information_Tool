@@ -19,8 +19,8 @@ print ("     IP Address Information Tool");
 print ("                  by Area Master");
 print ();
 print ("Before using this Tool:-");
-print ("01. You must have Internet Connection.");
-print ("02. You must have to enter valid Public IP Address.");
+print ("  01. You must have Internet Connection.");
+print ("  02. You must have to enter valid Public IP Address.");
 print ();
 
 def google_ok():
