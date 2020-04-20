@@ -8,20 +8,22 @@ import socket;
 import json;
 from urllib.request import urlopen;
 
-print ();
-print (" ██╗██████╗  █████╗ ██╗████████╗");
-print (" ██║██╔══██╗██╔══██╗██║╚══██╔══╝");
-print (" ██║██████╔╝███████║██║   ██║   ");
-print (" ██║██╔═══╝ ██╔══██║██║   ██║   ");
-print (" ██║██║     ██║  ██║██║   ██║   ");
-print (" ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝   ╚═╝   "); 
-print ("     IP Address Information Tool");
-print ("                  by Area Master");
-print ();
-print ("Before using this Tool:-");
-print ("  01. You must have Internet Connection.");
-print ("  02. You must have to enter valid Public IP Address.");
-print ();
+banner = """
+ ██╗██████╗  █████╗ ██╗████████╗
+ ██║██╔══██╗██╔══██╗██║╚══██╔══╝
+ ██║██████╔╝███████║██║   ██║   
+ ██║██╔═══╝ ██╔══██║██║   ██║   
+ ██║██║     ██║  ██║██║   ██║   
+ ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝   ╚═╝    
+     IP Address Information Tool
+                  by Area Master
+
+ Before using this Tool:-
+   01. You must have Internet Connection.
+   02. You must have to enter valid Public IP Address.
+"""
+
+print (banner, "\n");
 
 def google_ok():
     try:
@@ -61,7 +63,7 @@ def is_valid_ipv6_address(address):
         return False
     return True
 
-host = input("Enter IPv4 or IPv6 Address: ");
+host = input(" Enter IPv4 or IPv6 Address: ");
 
 if google_ok() or yahoo_ok():
     if site_ok():
@@ -73,22 +75,22 @@ if google_ok() or yahoo_ok():
 
             if "bogon" in js :
                 print ();
-                print ("Error: Your IP Address is not a Public IP Address !");
+                print (" Error: Your IP Address is not a Public IP Address !");
         
             else:
                 print ();
-                print ("IP Address: " + js["ip"]);
-                print ("Country: " + js["country"]);
-                print ("Location: " + js["loc"]);
-                print ("ASN/Organization: " + js["org"]);
-                print ("Time Zone: " + js["timezone"]);
+                print (" IP Address: " + js["ip"]);
+                print (" Country: " + js["country"]);
+                print (" Location: " + js["loc"]);
+                print (" ASN/Organization: " + js["org"]);
+                print (" Time Zone: " + js["timezone"]);
                 #You can add additional lines here.
         else:
             print ();
-            print ("Error: Your IP Address is not a Valid IP Address !");
+            print (" Error: Your IP Address is not a Valid IP Address !");
     else:
         print ();
-        print ("Error: Can't retrive Information !");
+        print (" Error: Can't retrive Information !");
 else:
     print ();
-    print ("Error: Check your Internet Connection !");
+    print (" Error: Check your Internet Connection !");
