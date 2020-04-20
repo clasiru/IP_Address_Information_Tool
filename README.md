@@ -9,7 +9,7 @@ This is the IP Address Information Tool (IPAIT). You need Python 3 and an Intern
 03. ASN/Organization
 04. Time Zone
 
-Additionally, you can also obtain the following details by adding suitable lines into the ipait.py. (You can add additional lines after 85th line.)
+Additionally, you can also obtain the following details by adding suitable lines into the ipait.py. (You can add additional lines after 87th line.)
 
 01. Hostname -
 ```python
